@@ -1,11 +1,11 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { FilterPanel } from "./components/FilterPanel";
+import { FilterPanel } from "./feature/filter/FilterPanel";
 
-import { JobList } from "./components/JobList";
+import { JobList } from "./feature/position/JobList";
 import { TheHeader } from "./components/TheHeader";
 
-import { addPositions } from "./store/positions/positions-actions";
+import { addPositions } from "./feature/position/position-slice";
 import data from "./mock/data.json";
 
 function App() {
